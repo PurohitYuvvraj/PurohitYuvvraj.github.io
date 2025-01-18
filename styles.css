@@ -1,12 +1,21 @@
-body {
-	margin-left: 10%;
-	margin-right: 10%;
+/*Universal Styling*/
+html {
+	font-size: 16px;
 }
-
-.container {
-	border: 1px solid green;
+* {
+	margin: 0px;
+	padding: 0px;
 }
-
-.header {
-	font-size: 30px;
+/*Styling the header and its content.*/
+header {
+	background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-content h1 {
+	font-size: 2rem;
+	color: whitesmoke;
 }
